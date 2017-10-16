@@ -1,0 +1,6 @@
+framework module IpsLocation {
+  umbrella header "IpsLocation.h"
+
+  export *
+  module * { export * }
+}
