@@ -24,6 +24,10 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>开启蓝牙以使用室内定位服务</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>道易寻会在室外定位及导航等服务中使用您的位置信息</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
