@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "IpsLocation"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "室内定位SDK."
   s.description  = <<-DESC
 	室内定位 IpsLocation Indoor location map ibeacon hospital
