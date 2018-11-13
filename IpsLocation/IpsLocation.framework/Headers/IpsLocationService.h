@@ -7,13 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "IpsUserInfo.h"
 
 @interface IpsLocationService : NSObject
 
 
 @property (nonatomic, readonly)NSString * _Nullable appKey;
-@property (nonatomic, copy)NSString* _Nullable    userId;
-@property (nonatomic, copy)NSString* _Nullable    phoneNumber;
+//用户信息
+@property (nonatomic, strong)IpsUserInfo * _Nullable userInfo;
 
 + (nonnull instancetype)sharedInstance;
 
